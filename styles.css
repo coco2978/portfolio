@@ -9,5 +9,6 @@
 img {
   border-radius: 50%;
   border: 3px solid #007BFF;
-  animation: swing 4s ease-in-out infinite;
+  animation: swing 4s ease-in-out 3 forwards;
 }
+
