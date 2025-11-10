@@ -49,3 +49,16 @@ section ul {
   list-style-type: disc;
   padding-left: 20px;
 }
+@keyframes swing {
+  0%   { transform: rotate(0deg); }
+  25%  { transform: rotate(10deg); }
+  50%  { transform: rotate(0deg); }
+  75%  { transform: rotate(-10deg); }
+  100% { transform: rotate(0deg); }
+}
+
+img {
+  border-radius: 50%;
+  border: 3px solid #007BFF;
+  animation: swing 4s ease-in-out infinite;
+}
